@@ -3,7 +3,7 @@ import { Grid, InputAdornment, TextField } from '@mui/material'
 
 function InputAmount() {
   return (
-    <Grid item>
+    <Grid item xs={12}>
       <TextField
       label="Amount"
       fullWidth
