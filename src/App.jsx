@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import { Button } from '@mui/material'
+import { Button, Container, Typography } from '@mui/material'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='app'>
-      <Button>click</Button>
-      </div>
+      <Container maxWidth='md' sx={{ background: '#fdfdfd'}}>
+      <Typography variant='h5' sx={{ marginTop: '2rem'}}>Stay Ahead With Accurate Conversions</Typography>
+      </Container>
        
     </>
   )
